@@ -1,0 +1,172 @@
+body{
+ background-color: rgb(0, 102, 255);
+}
+*{
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+}
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 100px;
+ margin-right: 120px;
+ margin-top: 10px;
+}
+ul{
+ display: flex;
+ gap: 30px;
+ list-style: none;
+}
+a{
+ text-decoration: none;
+ color: aliceblue;
+}
+.container img{
+ height: 70px;
+ width: 70px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+
+}
+.letter{
+ margin-top: 150px;
+ margin-left: 100px;
+ 
+}
+h1{
+ color: aliceblue;
+ text-transform: uppercase;
+}
+h2{
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+}
+p{
+ color: aliceblue;
+}
+button{
+ height: 30px;
+ width: 170px;
+ cursor: pointer;
+ border-radius: 20px;
+ text-transform: uppercase;
+ font-size: 13px;
+ margin-top: 20px;
+ border: 0px;
+}
+button:hover{
+ background: black;
+ color: aliceblue;
+}
+.content img{
+ height: 400px;
+}
+.img{
+  display: flex;
+ margin-right: 100px;
+ margin-top: 50px;
+}
+.social{
+ margin-top: 100px;
+ margin-left: 70px;
+ 
+}
+.social a i{
+ margin: 10px;
+ display: block;
+}
+.can img{
+ width: 100px;
+ height: 50px;
+margin-left: 600px;
+}
+@media (max-width:600px){
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+
+    }
+    ul {
+       display: flex;
+       gap:10px;
+       list-style: none;
+     }
+    .container img {
+       height: 40px;
+       width: 40px;
+       margin:10px ;
+     }
+      .letter {
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .social {
+       margin-top: 100px;
+       margin-left: 10px;
+      }
+     .can img {
+       width: 100px;
+       height: 50px;
+       margin-left: 200px;
+       margin-top: 10px;
+      }
+}
+@media (min-width:600px) and (max-width:800px) {
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+  
+    }
+  
+    ul {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+    }
+  
+    .container img {
+      height: 40px;
+      width: 40px;
+      margin: 10px;
+    }
+  
+    .letter {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .content img {
+     height: 300px;
+    }
+    .social {
+      margin-top: 100px;
+      margin-left: 10px;
+    }
+  
+    .can img {
+      width: 100px;
+      height: 50px;
+      margin-left: 300px;
+      margin-bottom: 10px;
+    }
+        .content {
+          display: flex;
+          justify-content: space-between;
+          height: 350px;
+    
+        }
+}
